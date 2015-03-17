@@ -15,6 +15,7 @@
 makeCacheMatrix <- function(mat = matrix()) {
 
     matInv <- NULL
+    
     set <- function(matToSet) {
         
         mat <<- matToSet
@@ -57,6 +58,7 @@ makeCacheMatrix <- function(mat = matrix()) {
 cacheSolve <- function(cachingMat, ...) {
     
     matInv <- cachingMat$getMatInv()
+    
     if (!is.null(matInv)) {
         
         message("Getting cached matrix inverse.")
