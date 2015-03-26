@@ -11,7 +11,7 @@
 ## getMatInv() for setting and getting the 
 ## calculated inverse of the wrapped matrix.
 ## Parameters:
-## mat - an R matrix to be wrapped.
+## mat - an R matrix to be wrapped.123456
 makeCacheMatrix <- function(mat = matrix()) {
 
     matInv <- NULL
